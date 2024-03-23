@@ -1,0 +1,24 @@
+/* Write your code here: */
+h1,h2{
+    color: blueviolet;
+}
+/* Burda bir alt sınıfa yonlendirme yaptık
+ parent child iliskisi var
+ sadece bir alt ogul ozellik alabiliyor*/
+.box > .done{
+    color: firebrick;
+}
+/* Burada dede torun iliskisi kurduk
+   childin parentinin parentini secici belirledik
+   ardından childe ozellik ekledik*/
+.box .list{
+    color: blue;
+}
+/*Direkt olarak nokta atışı yapan bir  örnek 
+spesifik olarak  direkt istenilen yere gidiyor*/
+li.done{
+    color: green;
+}
+ul p.done{
+    font-size: 0.5rem;
+}
